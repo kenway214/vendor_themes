@@ -42,6 +42,13 @@
       "description": "Battery icon style themes",
       "targetPackage": "com.android.systemui",
       "icon": "battery_full"
+    },
+    {
+      "id": "settings",
+      "name": "Settings Icons",
+      "description": "Settings app indicator and category icons",
+      "targetPackage": "com.android.settings",
+      "icon": "settings"
     }
   ],
   "categories": [
@@ -1574,6 +1581,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackAcherusSystemUIOverlay.apk",
           "fileSize": 138190,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.acherus.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackAcherusSettingsOverlay.apk",
+          "fileSize": 94474,
+          "enabled": true
         }
       ]
     },
@@ -1649,6 +1666,16 @@
           ],
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackCircularSystemUIOverlay.apk",
           "fileSize": 70484,
+          "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.circular.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackCircularSettingsOverlay.apk",
+          "fileSize": 84563,
           "enabled": true
         }
       ]
@@ -1726,6 +1753,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackFilledSystemUIOverlay.apk",
           "fileSize": 62292,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.filled.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackFilledSettingsOverlay.apk",
+          "fileSize": 76371,
+          "enabled": true
         }
       ]
     },
@@ -1802,6 +1839,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackKaiSystemUIOverlay.apk",
           "fileSize": 128030,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.kai.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackKaiSettingsOverlay.apk",
+          "fileSize": 84662,
+          "enabled": true
         }
       ]
     },
@@ -1847,7 +1894,7 @@
       "id": "iconpack_nostalgic",
       "name": "Nostalgic",
       "description": "Nostalgic icon pack",
-      "author": "Radosław Błędowski",
+      "author": "Rados\u0142aw B\u0142\u0119dowski",
       "version": "1.0.0",
       "versionCode": 1,
       "minSdk": 35,
@@ -1877,6 +1924,16 @@
           ],
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackNostalgicSystemUIOverlay.apk",
           "fileSize": 67113,
+          "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.nostalgic.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackNostalgicSettingsOverlay.apk",
+          "fileSize": 12952,
           "enabled": true
         }
       ]
@@ -1916,6 +1973,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackOOSSystemUIOverlay.apk",
           "fileSize": 66214,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.oos.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackOOSSettingsOverlay.apk",
+          "fileSize": 84478,
+          "enabled": true
         }
       ]
     },
@@ -1953,6 +2020,16 @@
           ],
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackOutlineSystemUIOverlay.apk",
           "fileSize": 278421,
+          "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.outline.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackOutlineSettingsOverlay.apk",
+          "fileSize": 354413,
           "enabled": true
         }
       ]
@@ -2030,6 +2107,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackPUISystemUIOverlay.apk",
           "fileSize": 170152,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.pui.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackPUISettingsOverlay.apk",
+          "fileSize": 137569,
+          "enabled": true
         }
       ]
     },
@@ -2067,6 +2154,16 @@
           ],
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackRoundedSystemUIOverlay.apk",
           "fileSize": 66388,
+          "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.rounded.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackRoundedSettingsOverlay.apk",
+          "fileSize": 84563,
           "enabled": true
         }
       ]
@@ -2106,6 +2203,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackSamSystemUIOverlay.apk",
           "fileSize": 113942,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.sam.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackSamSettingsOverlay.apk",
+          "fileSize": 80566,
+          "enabled": true
         }
       ]
     },
@@ -2144,6 +2251,16 @@
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackVictorSystemUIOverlay.apk",
           "fileSize": 124242,
           "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.victor.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackVictorSettingsOverlay.apk",
+          "fileSize": 76470,
+          "enabled": true
         }
       ]
     },
@@ -2181,6 +2298,16 @@
           ],
           "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackXperiaSystemUIOverlay.apk",
           "fileSize": 57943,
+          "enabled": true
+        },
+        {
+          "componentId": "android.theme.customization.icon_pack.settings",
+          "packageName": "com.android.theme.icon_pack.xperia.settings",
+          "targets": [
+            "settings"
+          ],
+          "downloadUrl": "https://raw.githubusercontent.com/kenway214/vendor_themes/cnb/apks/IconPackXperiaSettingsOverlay.apk",
+          "fileSize": 67772,
           "enabled": true
         }
       ]
